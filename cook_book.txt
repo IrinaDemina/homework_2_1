@@ -1,0 +1,26 @@
+Omelet
+3
+Egg | 2 | PCs
+Milk | 100 | ml
+Tomato | 2 | PCs
+
+peking duck
+4
+Duck | 1 | PCs
+Water | 2 | l
+Honey | 3 | art. l
+Soy sauce | 60 | ml
+
+baked potato
+3
+Potatoes | 1 | kg
+Garlic | 3 | kink
+Gouda cheese | 100 | g
+
+fajitas
+5
+Beef | 500 | g
+Sweet pepper | 1 | PCs
+Pita bread | 2 | PCs
+Wine vinegar | 1 | art. l
+Tomato | 2 | PCs
