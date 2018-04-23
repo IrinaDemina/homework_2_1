@@ -4,20 +4,18 @@ def get_cook_book():
     with open("cook_book.txt") as f:
 
         for line in f:
-            dish = []
-            dishes = line.strip().lower()
+            dishes = []
+            dish = line.strip().lower()
             count = int(f.readline().strip())
-            i = 1
-            while i <= count:
+            for i in range(count):
                 ingredients = {}
                 m = f.readline().strip().split("|")
                 ingredients['ingridient_name'] = m[0].strip()
                 ingredients['quantity'] = int(m[1])
                 ingredients['measure'] = m[2].strip()
-                dish.append(ingredients)
-                i += 1
+                dishes.append(ingredients)
             f.readline()
-            cook_book[dishes] = dish
+            cook_book[dish] = dishes
     return cook_book
 
 
